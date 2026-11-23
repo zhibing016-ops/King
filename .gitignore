@@ -1,0 +1,56 @@
+# KING PLUS — .gitignore atualizado
+# Segredos e configurações locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Dados e backups dos 11 sistemas
+/data/
+/backups/
+**/backups/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Logs, cache e temporários
+*.log
+/logs/
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# Editor e sistema
+.vscode/settings.json
+.idea/
+
+# ATENÇÃO:
+# config/*.json não é ignorado automaticamente porque contém
+# configurações do projeto. Nunca armazene tokens ou senhas nesses
+# arquivos versionados. Se houver credenciais, mova-as para .env
+# ou um armazenamento seguro e ignore o arquivo sensível.
+# Arquivos já rastreados pelo Git precisam ser removidos do índice
+# separadamente (git rm --cached), sem apagar a cópia local.
