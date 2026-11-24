@@ -1,0 +1,52 @@
+{
+  "tickets": {
+    "name": "Tickets",
+    "emoji": "🎫",
+    "enabled": true
+  },
+  "moderacao": {
+    "name": "Moderação",
+    "emoji": "🛡️",
+    "enabled": true
+  },
+  "automod": {
+    "name": "AutoMod",
+    "emoji": "🤖",
+    "enabled": true
+  },
+  "sorteios": {
+    "name": "Sorteios",
+    "emoji": "🎉",
+    "enabled": true
+  },
+  "niveis": {
+    "name": "Níveis",
+    "emoji": "🏆",
+    "enabled": true
+  },
+  "cargos_reacao": {
+    "name": "Cargos por Reação",
+    "emoji": "🎭",
+    "enabled": true
+  },
+  "sugestoes": {
+    "name": "Sugestões",
+    "emoji": "💡",
+    "enabled": true
+  },
+  "enquetes": {
+    "name": "Enquetes",
+    "emoji": "📊",
+    "enabled": true
+  },
+  "redeem": {
+    "name": "Redeem Codes",
+    "emoji": "🎁",
+    "enabled": true
+  },
+  "mu": {
+    "name": "Painel MU",
+    "emoji": "📋",
+    "enabled": true
+  }
+}
